@@ -30,6 +30,11 @@ $(document).ready(function () {
         ]
     });
     $('.input-cari-trayek').select2();
+
+});
+$('#upload-icon').on('click', function (e) {
+    e.preventDefault()
+    $('#hasil').toggleClass('hide')
 });
 
 
